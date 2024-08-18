@@ -147,7 +147,7 @@ plt.xlim(0,300000)
 plt.show()
 ```
 ![Salary Distribution](3_Project\images\salary_analysis.png)
-*Box plot visualizing the salary distributions for the top 6 data job titles.*
+*Box plot visualizing the salary distributions for the top 6 data job titles*
 
 - Senior Roles: Senior Data Scientist and Senior Data Engineer have the highest median salaries with relatively tight salary ranges, indicating a smaller variation among salaries.
 
