@@ -73,7 +73,7 @@ for ax, job_title in zip(axs, job_titles):
     plt.show()
 ```
 # Results
-![Visualization of Top Skills](3_Project\images\skill_demand.png)
+![Visualization of Top Skills](3_Project/images/skill_demand.png)
 
 ### Insights
 
@@ -101,7 +101,7 @@ df_DA_pivot = df_DA_pivot.drop('Total')
 
 df_DA_pivot.iloc[:,:5].plot(kind='line')
 ```
-![Trending Skills for Data Analyst](3_Project\images\Skill_trend.png)
+![Trending Skills for Data Analyst](3_Project/images/Skill_trend.png)
 *Bar graph visualizing the trending top skills for data analysts in 2023.*
 
 ### Insights:
@@ -146,7 +146,7 @@ ax = plt.gca()
 plt.xlim(0,300000)
 plt.show()
 ```
-![Salary Distribution](3_Project\images\salary_analysis.png)
+![Salary Distribution](3_Project/images/salary_analysis.png)
 *Box plot visualizing the salary distributions for the top 6 data job titles*
 
 - Senior Roles: Senior Data Scientist and Senior Data Engineer have the highest median salaries with relatively tight salary ranges, indicating a smaller variation among salaries.
@@ -176,7 +176,7 @@ sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, ax=ax[1], palet
 plt.show()
 ```
 
-![Highest Paid and Most In-demand skills](3_Project\images\top_paid_vs_indemand.png) *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
+![Highest Paid and Most In-demand skills](3_Project/images/top_paid_vs_indemand.png) *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 ### Insights:
 
@@ -215,7 +215,7 @@ import matplotlib.pyplot as plt
 plt.scatter(df_DA_skills['skill_percentage'], df_DA_skills['median_salary'])
 plt.show()
 ```
-![Most Optimal skills for a Data Analyst](3_Project\images\optimal_skills.png)
+![Most Optimal skills for a Data Analyst](3_Project/images/optimal_skills.png)
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts.*
 
 ### Insights
